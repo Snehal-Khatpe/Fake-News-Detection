@@ -88,9 +88,4 @@ Downsides to consider:
 * Output Layer: model.add(Dense(1, activation= 'sigmoid'))
 * Purpose: Produces the final classification (fake or real).
 * Rationale: Sigmoid activation is used for binary classification, outputting a probability between 0 and 1.
-5. Model Compilation:
-    * Optimizer: Adam
-    * Loss Function: Binary Crossentropy
-    * Metrics: Accuracy
-    * Rationale: This combination is standard for binary classification tasks. Adam is an adaptive learning rate optimization algorithm,
-      and binary crossentropy is suitable for binary outcomes.
+
